@@ -10,7 +10,7 @@ nsg_rule_ssh      = "AllowSSH"
 public_ip         = "cmaz-zz733vvq-mod4-pip"
 domain_name_label = "cmaz-zz733vvq-mod4-nginx"
 vm_name           = "cmaz-zz733vvq-mod4-vm"
-vm_os_version     = "24_04-lts"
+vm_os_version     = "ubuntu-24_04-lts"
 vm_SKU            = "Standard_F2s_v2"
 student_email     = "mark_nagy@epam.com"
 

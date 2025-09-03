@@ -111,7 +111,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
 
   source_image_reference {
     publisher = "Canonical"
-    offer     = "var.vm_os_version"
+    offer     = var.vm_os_version
     sku       = "server"
     version   = "latest"
   }
